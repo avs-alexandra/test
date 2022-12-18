@@ -1,0 +1,328 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1817,
+      "max": [
+        1.5320216417312622,
+        5.698792934417725,
+        1.5334217548370361
+      ],
+      "min": [
+        -2.142847776412964,
+        0.00250274408608675,
+        -1.1665806770324707
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 21804,
+      "componentType": 5126,
+      "count": 1817,
+      "max": [
+        1.0,
+        0.9987915754318237,
+        0.999919593334198
+      ],
+      "min": [
+        -1.0,
+        -0.9996805787086487,
+        -0.9988248944282532
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1817,
+      "max": [
+        0.9863972067832947,
+        0.9882558584213257
+      ],
+      "min": [
+        0.0014268234372138977,
+        0.011983752250671387
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 8322,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 43608,
+      "componentType": 5126,
+      "count": 221,
+      "max": [
+        -0.5931771993637085,
+        8.304539680480957,
+        1.779456615447998
+      ],
+      "min": [
+        -2.402245044708252,
+        2.8324975967407227,
+        -0.05429297685623169
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 46260,
+      "componentType": 5126,
+      "count": 221,
+      "max": [
+        0.9952657222747803,
+        1.0,
+        0.9978416562080383
+      ],
+      "min": [
+        -1.0,
+        -0.851119339466095,
+        -0.9978416562080383
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 14536,
+      "componentType": 5126,
+      "count": 221,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.017802877351641655,
+        0.024042993783950806
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 33288,
+      "componentType": 5125,
+      "count": 732,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Kanna-Nakajima (https://sketchfab.com/Kanna-nakajima)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/sad-clown-cat-b2f406b54ca745a69baa648bd1a74030",
+      "title": "Sad Clown Cat"
+    },
+    "generator": "Sketchfab-14.64.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 36216,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16304,
+      "byteOffset": 36216,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48912,
+      "byteOffset": 52520,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 101432,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/CatTexture_baseColor.png"
+    },
+    {
+      "uri": "textures/lambert2_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "CatTexture",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "lambert2",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "polySurface4_CatTexture_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "pCylinder2_lambert2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "5dbb210ecee14f94bb5457243c4542ce.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "polySurface4"
+    },
+    {
+      "mesh": 0,
+      "name": "polySurface4_CatTexture_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "pCylinder2"
+    },
+    {
+      "mesh": 1,
+      "name": "pCylinder2_lambert2_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
